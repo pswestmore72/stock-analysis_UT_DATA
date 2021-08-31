@@ -8,13 +8,13 @@ This script was written with performance in mind so that it may be scaled to a l
 
 # 2017 Analysis
 ![Select 2017 Stocks](./resources/VBA_Challenge_2017.png)
-- [Select 2017 Stocks](resources/VBA_Challenge_2017.png)
+- [Select 2017 Stocks Downdload (png)](resources/VBA_Challenge_2017.png)
 
 The data suggests that all but one one of the selected stocks are strong canidates for investment. The stock 'TERP' was the only chosen stock to underperform, and the stocks 'DQ', 'ENPH', 'FSLR', and 'SEDG' are all dramatically overperforming. These stocks should be looked into within the 2018 reporting to see if these gains continued or if they fell.
 
 # 2018 Analysis
 ![Select 2018 Stocks](./resources/VBA_Challenge_2018.png)
-- [Select 2018 Stocks](resources/VBA_Challenge_2018.png)
+- [Select 2018 Stocks Downdload (png)](resources/VBA_Challenge_2018.png)
 
 The data shows in the year 2018 a majority of selected stocks fell in performance. As for stocks that were on the watch list from 2017 we can see:
 - 'DQ' dramatically underperformed and would be seen as a risky investment
@@ -33,5 +33,5 @@ In general code refactoring is not always seen as an "optimal" expense of resour
 While all of these things are good things to strive for, often code refactoring can eat up more time or resources than are saved. In the age of cloud computing and ultra fast CPUs/GPUs the largest cost that many companies feel in their development team is the hourly cost of their coders, and having these coders spend many hours refactoring functional code can lead to massive losses in productivity and increased costs to the company. In general refactoring old functional code is going to be a case by case decision every time, there is no clear answer for if/ when it is worth doing.
 
 ### VBA Challenge Refactoring
-In the case of this challenge, I believe that refactoring the code to decrease execution time was a relavent and important step to take. The execution times for this code were cut in half by these improvements, which means that this same approach can now be used to great affect with a much larger dataset. A key reason that refactoring was worth while in this case is simply that the fault with the code was clear and there were quick and easy steps that could be taken to remedy the problem without long dev hours. If the refactoring had taken doubling or tripling the footprint of the lines of code, or taken days of research to determine a viable alternative, than refactoring would not have been such a clear path forward.
+In the case of this challenge, I believe that refactoring the code to decrease execution time was a relavent and important step to take. The execution times for this code were cut in half by these improvements, which means that this same approach can now be used to great affect with a much larger dataset. A key reason that refactoring was worth while in this case is simply that the fault with the code was clear and there were quick and easy steps that could be taken to remedy the problem without long dev hours. If the refactoring had taken doubling or tripling the footprint of the lines of code, or taken days of research to determine a viable alternative, then refactoring would not have been such a clear path forward.
 
